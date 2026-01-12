@@ -12,15 +12,18 @@ Both systems investigate how **human body movement** can function as the primary
 
 ## Repository Structure
 
-HCI_116651954_Code/
-│
-├── Music_Generation/
-│ └── gesture-av-experience/ # AURA: Gesture-Controlled AV System
-│
-├── Music_concert/
-│ └── Music_concert/ # VR Concert Platform
-│
-└── README.md
+Embodi/
+|
++-- Music_Generation/
+|   |
+|   +-- gesture-av-experience/     # AURA: Gesture-Controlled Audio-Visual System
+|
++-- Music_concert/
+|   |
+|   +-- Music_concert/             # VR Concert Platform
+|
++-- README.md
+
 
 
 ---
@@ -115,6 +118,7 @@ To address VR motion sickness caused by sensory conflict, the system employs **t
 git clone https://github.com/1216-dev/HCI_116651954_Code.git
 cd HCI_116651954_Code
 
+---
 
 ### Run Project 1: AURA
 
@@ -122,4 +126,4 @@ cd Music_Generation/gesture-av-experience
 npm install
 npm run dev
 
-----
+---
