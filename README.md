@@ -12,6 +12,7 @@ Both systems investigate how **human body movement** can function as the primary
 
 ## Repository Structure
 
+```
 Embodi/
 |
 +-- Music_Generation/
@@ -23,6 +24,8 @@ Embodi/
 |   +-- Music_concert/             # VR Concert Platform
 |
 +-- README.md
+
+```
 
 
 
