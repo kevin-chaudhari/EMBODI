@@ -1,0 +1,36 @@
+{
+  "name": "vrconcert",
+  "version": "0.1.21",
+  "description": "A tool to create virtual music concerts/videos",
+  "module": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielesteban/vrconcert"
+  },
+  "files": [
+    "core",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": "Daniel Esteban Nombela <dani@gatunes.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --cache --ext .js core index.js",
+    "start": "http-server -c-1 -d false -i false -o http://localhost:8080/example/index.html",
+    "build": "echo 'No build step'"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "http-server": "^0.11.1",
+    "vercel": "^48.12.1",
+    "webvr-polyfill": "^0.10.12"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/hands": "^0.4.1675469240"
+  }
+}
